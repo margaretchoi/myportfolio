@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Margaret Choi | Web Developer and Designer</title>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/app.js"></script>
+    
+    <!-- CSS -->
+
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body> 
+            <div id="mySidenav" class="nav-menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="/">Home</a>
+                <a href="/portfolio">Portfolio</a>
+                <a href="/contact">Contact</a>
+            </div>
+            <div id="main">
+                <nav>
+                    <!-- Burger Icon -->
+                    <div id="menu-burger" class="menu-slide" onclick="openNav()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div>
+                    <div id="home-social" class="">
+                    <a id="btn-facebook"  href=""><img class="social-icon" src="/assets/images/facebook.png"></a>
+                    <a id="btn-linkedin" href=""><img class="social-icon" src="/assets/images/linkedin.png"></a>
+                    <a id="btn-github" href=""><img class="social-icon" src="/assets/images/github.png"></a>
+                    </div>
+                </nav>
+
+                <div id="home-wrapper">                
+                    <h1 class="large">Let's Chat!</h1>
+
+                    <div class="container">
+                      <form action="">
+
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="subject">Message</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                      </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>

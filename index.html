@@ -1,31 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Margaret Choi | Web Developer and Designer</title>
+    <title>Margaret Choi | Web Developer and Designer</title>
 
-	<!-- jQuery -->
+    <!-- jQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="/app.js"></script>
-	
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    
+    <!-- CSS -->
 
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
 <body>
-	<nav>
-		<div>
-			Logo
-		</div>
-		<div id="menu-burger">
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		</div>
-	</nav>
-	<main>
-		<h2>BEAUTIFUL WEB<br>
-			DESIGN and DEVELOPMENT</h2>
-	</main>
+
+    <div class="parallax-wrapper">
+        <div class="section-wrapper parallax-page bg1">
+            
+
+            <div id="mySidenav" class="nav-menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                 <a href="/">Home</a>
+                <a href="/portfolio">Portfolio</a>
+                <a href="/contact">Contact</a>
+            </div>
+            <nav>
+                <!-- Burger Icon -->
+                <div id="menu-burger" class="menu-slide" onclick="openNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+                <div id="home-social" class="">
+                <a id="btn-facebook"  href=""><img class="social-icon" src="/assets/images/facebook.png"></a>
+                <a id="btn-linkedin" href=""><img class="social-icon" src="/assets/images/linkedin.png"></a>
+                <a id="btn-github" href=""><img class="social-icon" src="/assets/images/github.png"></a>
+                </div>
+            </nav>
+
+            <div id="home-wrapper" class="bg1">
+
+                <section id="home-tagline">
+                <!--      <h1>Margaret Choi</h1> -->
+                <img src="/assets/images/cover_headshot.jpg" id="home-headshot">
+                <div class="dotted-border">
+                <h2>Beautiful handcrafted code</h2>
+                <h4>&#139; Front-End Web Design &#38; Development / Branding / Marketing &#155; </h4>
+                </div>
+                </section>
+                <!--    <section>
+                <p id="home-intro">Hi, I'm Margaret! I specialize in Javascript and Node and 
+                my favorite projects focus on helping pets.</p>
+                </section> -->
+                <section id="home-hire" class="">
+                <a id="portfolio" class="light-btn" href="/portfolio">Portfolio</a>
+                <a id="contact" class="light-btn" href="/contact">Contact</a>
+                </section>
+                <img href="#bottom" id="downarrow" class="downarrow-icon" src="/assets/images/down_arrow.png" >
+                <a href="#middle" id="downarrow" class="downarrow-icon" >Down</a>
+            </div>
+
+        </div>
+        <div id="middle" class="section-wrapper static">
+            <h2>Hi! I'm Margaret<h2>
+            <h4>My specialty is creative designs and code made just for you.<br/> 
+            Contact me and let's chat about bringing your project to life.</h4>
+        </div>
+        <div id="bottom" class="section-wrapper parallax-page bg2">
+            <h1>Animal focused projects!</h1>
+        </div>
+    </div>
 </body>
-</html>
