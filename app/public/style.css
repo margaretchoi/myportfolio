@@ -41,6 +41,12 @@ section {
   margin: 20px
 }
 
+
+
+.text-center {
+  text-align: center;
+}
+
 #home-wrapper {
   padding: 0px 40px 40px 40px ;
   display: flex;
@@ -86,6 +92,10 @@ section {
   border-bottom: 4px dotted #ececec;
 }
 
+#main {
+  width: 100%;
+}
+
 .downarrow-icon {
   max-width: 50px;
   margin: 20px;
@@ -110,12 +120,14 @@ section {
 
 /* The navigation menu links */
 .nav-menu a {
-    padding: 8px 8px 8px 32px;
+    padding: 20px 10px;
     text-decoration: none;
     font-size: 21px;
-    color: #818181;
+    color: #FFFFFF;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -264,6 +276,31 @@ section {
 
 
 
+
+
+
+
+
+/* PORTFOLIO */
+/******************************************/
+
+
+#porfolio-wrapper {
+  padding: 0px 40px 40px 40px ;
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 1s;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
 /* CONTACT FORM */
 /******************************************/
 
@@ -300,7 +337,6 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
-
 
 
 

@@ -1,0 +1,30 @@
+#portfolio-wrapper {
+
+}
+
+#portfolio-images-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 80%;
+	opacity: 0.25;
+}
+
+.portfolio-image {
+	width: 33%;
+
+}
+
+.portfolio-image img {
+	transition: 2s;
+	border: 10px solid #ececec;
+	-webkit-transition: border 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: border 0.5s;
+    margin: 20px;
+}
+
+.portfolio-image img:hover {
+	border: 10px solid #fe626d;
+}
